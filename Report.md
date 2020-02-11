@@ -1,6 +1,6 @@
-Name:
+Name: Claire Romero
 
-EID:
+EID: cmr4789
 
 Team Number:
 
