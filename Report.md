@@ -8,15 +8,15 @@ Team Number:
 
 1. Why does your program need a setup and a loop?
 
-    your answer here
+    Programs need a setup to initialize ports and variables, and a loop is used to execute the functions required. 
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    You have to ensure that your loop is infinite when necessary, and ends at the correct condition when it is not an infinite loop. 
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    The compiler works as a type of translator, to change the code in C to machine code, so the computer can understand the programmer. 
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
@@ -61,13 +61,13 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Romero_Periodic_Blink.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Romero_Fade.png)
 
 Procedure B, UART:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Romero_UART_Message.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Romero_SPI_Message.png)
