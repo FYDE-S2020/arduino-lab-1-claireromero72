@@ -24,39 +24,43 @@ Team Number:
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    Since ground is a reference point, the logic analyer will output accurate data about the ESP32 if it is using the same ground/reference point. 
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    your answer here
+    Synchronous communication is synchronized by a clock, while asynchronous communication is synchronized using specialized transmissions (different from normal signals). 
 
 7. Profile of UART: Sent X bytes in Y time 
 
-    your answer here
+    7 bytes in 7.219 ms
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    7 bytes in 0.1785 ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    UART is asynchronous, which means it uses only one signal. SPI is synchronous, and runs with a clock, and each direction of communication has its own line, which makes it faster.
 
 10. list one pro and one con of UART
 
-    your answer here
+    Pro: Fewer wires required to be used 
+    Con: Communication is not at fast 
 
 11. list one pro and one con of SPI
 
-    your answer here
+    Pro: Faster communication
+    Con: Requires more wires and can only be used for short distances
 
 12. list one pro and one con of I2C
 
-    your answer here
+    Pro: Allows several "slave" digital ICs to be controlled 
+    Con: Only intended for short distance communication, and requires far momre pins 
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    The external resistors are restore the signal to high whenever there is not device 
+    asserting low on the other end to change the signal. 
 
 ## Screenshots
 
