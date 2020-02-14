@@ -20,7 +20,7 @@ Team Number:
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    The lower the frequency is, the more obvious it is that the LED is being turned on and off to greate a dimming effect. In the real world, the frequency is kept above what the human eye can differentiate between, so we only see dimming, not flickering. 
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
